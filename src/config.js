@@ -50,7 +50,7 @@ const layerConfigurations = [
       { name: "Body" },
       { name: "Eye" },
       { name: "Hair" },
-      { name: "Cloth_Maid" },
+      { name: "Cloth_Bath" },
     ],
   },
   {
@@ -97,6 +97,18 @@ const layerConfigurations = [
       { name: "Cloth_School" },
       { name: "Jacket" },
       { name: "Item" },
+    ],
+  },
+  {
+    growEditionSizeTo: 140,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Hair" },
+      { name: "Cloth_Daily" },
+      { name: "Item" },
+      { name: "Hat" },
     ],
   },
 ];
