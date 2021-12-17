@@ -24,16 +24,48 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
-      { name: "Cloth" },
       { name: "Eye" },
       { name: "Hair" },
-      { name: "Item" },
+      { name: "Cloth" },
     ],
   },
+  {
+    growEditionSizeTo: 150,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Hair" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Cloth" },
+      { name: "Item" }
+    ],
+  },
+  {
+    growEditionSizeTo: 200,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Hair" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Cloth" },
+      { name: "Jacket" }
+    ],
+  },
+  {
+    growEditionSizeTo: 230,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Hair" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Cloth" },
+      { name: "Glasses" }
+    ],
+  }
 ];
 
 const shuffleLayerConfigurations = false;
@@ -41,8 +73,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1024,
-  height: 1024,
+  width: 1536,
+  height: 2048,
   smoothing: true,
 };
 
