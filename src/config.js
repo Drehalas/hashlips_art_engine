@@ -24,48 +24,81 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
+    growEditionSizeTo: 25,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Hair" },
+      { name: "Cloth_Daily" },
+    ],
+  },
+  {
+    growEditionSizeTo: 40,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Hair" },
+      { name: "Cloth_Maid" },
+    ],
+  },
+  {
+    growEditionSizeTo: 55,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Hair" },
+      { name: "Cloth_Maid" },
+    ],
+  },
+  {
+    growEditionSizeTo: 75,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Eye" },
+      { name: "Hair" },
+      { name: "Cloth_Daily" },
+      { name: "Item" },
+    ],
+  },
+  {
     growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
       { name: "Eye" },
       { name: "Hair" },
-      { name: "Cloth" },
+      { name: "Cloth_School" },
+      { name: "Jacket" },
     ],
   },
   {
-    growEditionSizeTo: 150,
+    growEditionSizeTo: 115,
     layersOrder: [
       { name: "Background" },
-      { name: "Hair" },
       { name: "Body" },
       { name: "Eye" },
-      { name: "Cloth" },
-      { name: "Item" }
+      { name: "Glasses" },
+      { name: "Hair" },
+      { name: "Cloth_School" },
+      { name: "Jacket" },
     ],
   },
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 130,
     layersOrder: [
       { name: "Background" },
-      { name: "Hair" },
       { name: "Body" },
       { name: "Eye" },
-      { name: "Cloth" },
-      { name: "Jacket" }
+      { name: "Hair" },
+      { name: "Cloth_School" },
+      { name: "Jacket" },
+      { name: "Item" },
     ],
   },
-  {
-    growEditionSizeTo: 230,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Hair" },
-      { name: "Body" },
-      { name: "Eye" },
-      { name: "Cloth" },
-      { name: "Glasses" }
-    ],
-  }
 ];
 
 const shuffleLayerConfigurations = false;
